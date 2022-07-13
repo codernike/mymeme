@@ -19,9 +19,6 @@ export default class navbar extends Component {
                         <a className="nav-link" href="/">Home <span className="visually-hidden">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/quiz">Quiz</a>
-                    </li>
-                    <li className="nav-item">
                         <a className="nav-link"  href="/moregames">Meme's</a>
                     </li>
                     <li className="nav-item">

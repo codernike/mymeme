@@ -9,7 +9,6 @@ import Homeform from './compoents/Homeform'
 import Moregames from './compoents/moregames'
 import Pokeemerald from './compoents/pokeemerald'
 import Contentpoke from './compoents/contentpoke'
-import Quiz from './compoents/quiz'
 import MemeGenerator from './compoents/mememaker'
 import {
   BrowserRouter as Router,
@@ -31,7 +30,6 @@ export default class App extends Component {
         </Route>
         <div class="d-flex flex-column min-vh-100">
         <main class="flex-fill">
-        <Route exact path='/quiz'><Quiz/></Route>
         <Route exact path='/form'><Form/> </Route>
         <Route exact path='/login'> <Login/></Route>
         <Route exact path='/Moregames'><Moregames/>   </Route>
